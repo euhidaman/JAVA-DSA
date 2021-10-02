@@ -5,7 +5,7 @@ public class pattern18 {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
 
-        int star = num, osp = 0, isp = num - 4;
+        int star = num, osp = 0;
 
         for (int i = 1; i <= num; i++) {
 
