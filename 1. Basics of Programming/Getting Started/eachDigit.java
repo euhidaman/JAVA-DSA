@@ -1,3 +1,5 @@
+// Problem : Digits of a number
+
 import java.util.*;
 
 public class eachDigit {
@@ -12,6 +14,12 @@ public class eachDigit {
         // System.out.println(r);
         // num /= 10;
         // }
+
+        // prints each individual digit in correct order
+        String str = Integer.toString(num);
+        for (int i = 0; i < str.length(); i++) {
+            System.out.println(str.charAt(i));
+        }
 
     }
 }
