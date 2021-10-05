@@ -1,3 +1,5 @@
+// Display all the prime factors of a number
+
 import java.util.Scanner;
 
 public class primeFactorisation {
