@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class any_base_to_decimal_2 {
+public class any_base_to_decimal {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
