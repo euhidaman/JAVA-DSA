@@ -12,6 +12,7 @@ public class anyBaseMultiplication {
         System.out.println(d);
     }
 
+    // actual function to get product between two numbers : n1 % n2
     public static int getProduct(int b, int n1, int n2) {
         int result = 0, multiplier = 1;
         while (n2 > 0) {
@@ -27,6 +28,7 @@ public class anyBaseMultiplication {
         return result;
     }
 
+    // function to product of n1 and each digit of n2
     public static int getSingleProduct(int b, int n1, int d2) {
         int result = 0, carry = 0, multiplier = 1;
         while (n1 > 0 || carry > 0) {
@@ -43,6 +45,7 @@ public class anyBaseMultiplication {
         return result;
     }
 
+    // function to get sum of each row of multiplication results.
     public static int getSum(int b, int n1, int n2) {
         int result = 0, carry = 0, multiplier = 1;
         while (n1 > 0 || n2 > 0 || carry != 0) {
