@@ -29,7 +29,7 @@ public class brokenEconomy {
                 ceil = arr[high];
             } else {
                 low = mid + 1;
-                floor = arr[high];
+                floor = arr[low];
             }
         }
 
