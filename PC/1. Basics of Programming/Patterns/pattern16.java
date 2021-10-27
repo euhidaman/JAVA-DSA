@@ -31,7 +31,6 @@ public class pattern16 {
             }
             count++;
             space -= 2;
-            val++;
             System.out.println();
         }
     }
