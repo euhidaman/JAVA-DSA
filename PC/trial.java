@@ -4,26 +4,32 @@ public class trial {
 
     public static void main(String[] args) {
 
-        String[] names = new String[] { "Ani", "Sam", "Aman", "Rahul", "Kaka" };
-        int total_names = names.length;
+        int nums[] = new int[] { -100, -98, -1, 2, 3, 4 };
 
-        switch (total_names) {
-        case 0:
-            System.out.println("no one likes this");
-            break;
-        case 1:
-            System.out.println(names[0] + " likes this");
-            break;
-        case 2:
-            System.out.println(names[0] + " and " + names[1] + " like this");
-            break;
-        case 3:
-            System.out.println(names[0] + ", " + names[1] + " and " + names[2] + " like this");
-            break;
-        default:
-            int rest = total_names - 2;
-            System.out.println(names[0] + ", " + names[1] + " and " + rest + " others like this");
-            break;
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + "\t");
         }
+        System.out.println();
+
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + "\t");
+        }
+        System.out.println();
+
+        int len = nums.length;
+
+        int fProd = -1;
+        if (nums[0] < 0 && nums[1] < 0) {
+            fProd = nums[0] * nums[1] * nums[len - 1];
+        }
+
+        int lProd = nums[len - 1] * nums[len - 2] * nums[len - 3];
+
+        int maxProd = Math.max(fProd, lProd);
+
+        System.out.println(maxProd);
+
     }
 }
