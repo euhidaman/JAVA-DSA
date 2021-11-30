@@ -1,3 +1,5 @@
+package Extras.Codewars;
+
 
 public class humanReadableTime {
 

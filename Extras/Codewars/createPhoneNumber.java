@@ -1,3 +1,5 @@
+package Extras.Codewars;
+
 public class createPhoneNumber {
 
     public static String phoneNumber(int[] arr) {

@@ -1,3 +1,5 @@
+package Extras.Codewars;
+
 public class squareEveryDigit {
     public static void main(String[] args) {
         int n = 9119;
