@@ -24,7 +24,7 @@ public class saddlePrice {
                     colno = j;
                 }
             }
-            
+
             boolean potentialAns = true;
             for (int r = 0; r < n; r++) {
                 if (min < arr[r][colno]) {
@@ -36,6 +36,7 @@ public class saddlePrice {
                 System.out.print(min);
                 return;
             }
+
         }
 
         System.out.print("Invalid Input");
