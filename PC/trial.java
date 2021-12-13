@@ -9,7 +9,7 @@ public class trial {
 
         int[] num = new int[str.length()];
 
-        // System.out.println("1");
+         System.out.println("1");
 
         for (int j = 0; j < str.length(); j++) {
             System.out.print(num[j] + " ");
