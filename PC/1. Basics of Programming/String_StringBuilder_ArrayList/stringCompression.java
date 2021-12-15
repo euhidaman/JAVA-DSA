@@ -20,7 +20,6 @@ public class stringCompression {
     }
 
     public static String compression2(String str){
-        // write your code here
         String res = "";
         res+=str.charAt(0);
         int count = 1;
