@@ -5,14 +5,11 @@ import java.util.*;
 public class trial {
 
     public static void main(String[] args) {
-        String str = "1234";
+        String str = "abqkec hello";
 
-        int[] num = new int[str.length()];
-
-         System.out.println("1");
-
-        for (int j = 0; j < str.length(); j++) {
-            System.out.print(num[j] + " ");
+        String[] res = str.split("\\s");
+        for (int i = 0; i < res.length; i++) {
+            System.out.println(res[i]);
         }
     }
 }
