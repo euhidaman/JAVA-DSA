@@ -22,13 +22,6 @@ class Codechef {
             }
         }
 
-        // for (int i = 0; i < T; i++) {
-        // for (int j = 0; j < 4; j++) {
-        // System.out.print(arr[i][j] + " ");
-        // }
-        // System.out.println();
-        // }
-
         for (int i = 0; i < T; i++) {
             float val = arr[i][0] + (arr[i][0] * (arr[i][3] / 100.0f));
 
